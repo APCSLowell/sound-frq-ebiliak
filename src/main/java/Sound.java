@@ -40,18 +40,14 @@ public class Sound
   public void trimSilenceFromBeginning()
   {
     /* to be implemented in part (b) */
-    int count = 0;
-    for(int i = 0; i < samples.length; i++){
-      if(samples[i] == 0){
-        count++;
-      }
-      else{
-        break;
-      }
+int i = 0;
+    while(samples[i] ==){
+      i++
+        }
+    int [] newsamples = new int[samples.length-i];
+    for(int r = 0; r < newsamples.length; r++){
+      newsamples[r] = samples[r+i];
     }
-    int [] newSamples = new int[count];
-      for(int j = count; j > 0; j--){
-        samples.remove(j);
       }
   }
 }
