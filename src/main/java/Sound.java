@@ -48,6 +48,7 @@ int i = 0;
     for(int r = 0; r < newsamples.length; r++){
       newsamples[r] = samples[r+i];
     }
+    samples=newsamples;
       }
   
 }
